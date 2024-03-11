@@ -1,7 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
-export default function NavbarItem() {
+export default function NavbarItem( {title, param}) {
   return (
-    <div>NavbarItem</div>
+    <div>
+      <Link 
+      className={``}
+       href={`/?genre=${param}`} >
+      {title}
+      </Link>
+    </div>
   )
 }

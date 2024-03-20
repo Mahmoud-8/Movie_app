@@ -19,6 +19,7 @@ Welcome to the Movie Search Application! This project utilizes React and Next.js
 - Located in `DarkModeSwitch.js`
 - Provides a toggle switch for switching between light and dark mode.
 ![alt text](<Screenshot 2024-03-20 at 1.13.27 PM.png>)
+![alt text](<Screenshot 2024-03-20 at 1.13.57 PM.png>)
 ### 3. Header Component
 - Located in `Header.js`
 - Displays the header with navigation links and a dark mode switch.

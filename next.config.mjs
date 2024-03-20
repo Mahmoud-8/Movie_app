@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    experimental: {
-        images: {
-            // Configuration for proxying images from image.tmdb.org
-            domains: ['image.tmdb.org']
-        }
+    images: {
+        remotePatterns: [{
+            protocol:'https',
+            hostname: 'image.tmdb.org',
+            pathname: '**',
+        }]
     }
 };
 
-module.exports = nextConfig;
+export default nextConfig;

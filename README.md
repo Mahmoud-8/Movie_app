@@ -1,5 +1,5 @@
 # Movie Search Application
-
+![alt text](<Screenshot 2024-03-20 at 1.14.15 PM.png>)
 Welcome to the Movie Search Application! This project utilizes React and Next.js to create a simple movie search application where users can browse movies and view details about them.
 
 ## Features
